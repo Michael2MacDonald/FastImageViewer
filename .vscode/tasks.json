@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build FastImageViewer",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "build"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run FastImageViewer",
+            "type": "shell",
+            "command": "build/FastImageViewer.exe",
+            "group": "test",
+            "problemMatcher": []
+        }
+    ]
+}
