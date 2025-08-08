@@ -1,0 +1,5 @@
+
+build/
+.github/
+test-data/
+.vscode/settings.json
